@@ -1,0 +1,425 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "39",
+    "from": "2023-01-14",
+    "to": "2023-01-14",
+    "season": "2022"
+  },
+  "errors": [],
+  "results": 6,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 868141,
+        "referee": "S. Attwell",
+        "timezone": "UTC",
+        "date": "2023-01-14T12:30:00+00:00",
+        "timestamp": 1673699400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 556,
+          "name": "Old Trafford",
+          "city": "Manchester"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-2.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-2.api-sports.io/flags/gb.svg",
+        "season": 2022,
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media-2.api-sports.io/football/teams/33.png",
+          "winner": null
+        },
+        "away": {
+          "id": 50,
+          "name": "Manchester City",
+          "logo": "https://media-2.api-sports.io/football/teams/50.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 868138,
+        "referee": "D. England",
+        "timezone": "UTC",
+        "date": "2023-01-14T15:00:00+00:00",
+        "timestamp": 1673708400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 508,
+          "name": "The American Express Community Stadium",
+          "city": "Falmer, East Sussex"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-2.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-2.api-sports.io/flags/gb.svg",
+        "season": 2022,
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 51,
+          "name": "Brighton",
+          "logo": "https://media-2.api-sports.io/football/teams/51.png",
+          "winner": null
+        },
+        "away": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 868140,
+        "referee": "J. Brooks",
+        "timezone": "UTC",
+        "date": "2023-01-14T15:00:00+00:00",
+        "timestamp": 1673708400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 8560,
+          "name": "Goodison Park",
+          "city": "Liverpool"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-2.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-2.api-sports.io/flags/gb.svg",
+        "season": 2022,
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 45,
+          "name": "Everton",
+          "logo": "https://media-2.api-sports.io/football/teams/45.png",
+          "winner": null
+        },
+        "away": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media-2.api-sports.io/football/teams/41.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 868143,
+        "referee": "P. Tierney",
+        "timezone": "UTC",
+        "date": "2023-01-14T15:00:00+00:00",
+        "timestamp": 1673708400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 566,
+          "name": "The City Ground",
+          "city": "Nottingham, Nottinghamshire"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-2.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-2.api-sports.io/flags/gb.svg",
+        "season": 2022,
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 65,
+          "name": "Nottingham Forest",
+          "logo": "https://media-3.api-sports.io/football/teams/65.png",
+          "winner": null
+        },
+        "away": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media-2.api-sports.io/football/teams/46.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 868145,
+        "referee": "S. Hooper",
+        "timezone": "UTC",
+        "date": "2023-01-14T15:00:00+00:00",
+        "timestamp": 1673708400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 600,
+          "name": "Molineux Stadium",
+          "city": "Wolverhampton, West Midlands"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-2.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-2.api-sports.io/flags/gb.svg",
+        "season": 2022,
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 39,
+          "name": "Wolves",
+          "logo": "https://media-3.api-sports.io/football/teams/39.png",
+          "winner": null
+        },
+        "away": {
+          "id": 48,
+          "name": "West Ham",
+          "logo": "https://media.api-sports.io/football/teams/48.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 868137,
+        "referee": "J. Gillett",
+        "timezone": "UTC",
+        "date": "2023-01-14T17:30:00+00:00",
+        "timestamp": 1673717400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 10503,
+          "name": "Gtech Community Stadium",
+          "city": "Brentford, Middlesex"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-2.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-2.api-sports.io/flags/gb.svg",
+        "season": 2022,
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media-2.api-sports.io/football/teams/55.png",
+          "winner": null
+        },
+        "away": {
+          "id": 35,
+          "name": "Bournemouth",
+          "logo": "https://media-3.api-sports.io/football/teams/35.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}
