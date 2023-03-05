@@ -13,6 +13,7 @@ from nltk.tokenize import word_tokenize
 import http.client
 
 import json
+from matchid import *
 
 
 st = StanfordNERTagger('/Users/sumit/Downloads/stanford-ner-2020-11-17/classifiers/english.all.3class.distsim.crf.ser.gz',
@@ -322,8 +323,11 @@ async def nlpprocess(variable):
 			print(names, assists, teams)
 			#await getmostassistscored()
 		if x == 4:
-			fixture_ids = getfixtureid()
-			predictions(fixture_ids)
+			# fixture_ids = getfixtureid()
+			# predictions(fixture_ids)
+			matchids, Home, Away, Homescore, Awayscore = getmatchid()
+			print(matchids,Home,Away,Homescore,Awayscore)
+			getstats(matchids, Home, Away, Homescore, Awayscore)
 
 		
 
